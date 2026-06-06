@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a class="logo" href="index.html"><span>🐾</span>ერთგულება</a>
+
+    <button class="menu-toggle">☰</button>
+
+    <nav>
+        <a href="index.html"> მთავარი</a>
+        <a href="animals.html">ცხოველები</a>
+        <a href="help.html">დახმარება</a>
+        <a href="visit.html">ვიზიტი</a>
+        <a href="gallery.html">გალერეა</a>
+        <a href="shelters.html">თავშესაფრები</a>
+            <a href="contact.html">შესვლა</a>
+    <a href="register.html">რეგისტრაცია</a>
+    </nav>
+
+        
+
+</header>
+
+<main class="page">
+
+    <!-- TITLE -->
+    <h1 class="page-title"></h1>
+        რეგისტრაცია
+    </h1>
+
+    <p class="page-subtitle">
+        შექმენი ანგარიში და გახდი ჩვენი საზოგადოების ნაწილი 
+    </p>
+
+    <!-- FORM -->
+    <form class="form">
+
+        <label>
+            სახელი
+            <input type="text" name="name" placeholder="თქვენი სახელი" required>
+        </label>
+
+        <label>ტელეფონი
+            <input type="tel" name="phone" placeholder="+995 000 00 00 00" required>
+        </label>
+
+        <label>
+            Email
+            <input type="email" name="email" placeholder="თქვენი email" required>
+        </label>
+
+        <label>
+            პაროლი
+            <input type="password" name="password" placeholder="პაროლი" required>
+        </label>
+
+        <label>
+            პაროლის გამეორება
+            <input type="password" name="confirm_password" placeholder="გაიმეორეთ პაროლი" required>
+        </label>
+
+        <button class="btn primary" type="submit">
+            რეგისტრაცია
+        </button>
+
+        <!-- login link -->
+        <p class="login-hint">
+            უკვე გაქვს ანგარიში?
+            <a href="contact.html" class="login-link">
+                შესვლა
+            </a>
+        </p>
+
+    </form>
+
+</main>
+
+<footer class="footer">
+
+    <div>
+        <a class="logo" href="index.html"><span>🐾</span>ერთგულება</a>
+        <p>
+            ჩვენ გვჯერა, რომ ყველა ცხოველი იმსახურებს სიყვარულს, ზრუნვას და უსაფრთხო სახლს.
+        </p>
+    </div>
+
+    <div>
+        <h3>ნავიგაცია</h3>
+        <a href="animals.html">ცხოველები</a>
+        <a href="help.html">დახმარება</a>
+        <a href="visit.html">ვიზიტი</a>
+        <a href="gallery.html">გალერეა</a>
+    </div>
+
+    <div>
+        <h3>კონტაქტი</h3>
+        <p>< +995 555 12 34 56</p>
+        <p> info@ertguleba.ge</p>
+        <p> თბილისი, საქართველო</p>
+    </div>
+
+    <div>
+        <h3>მხარდაჭერა</h3>
+        <a class="btn donate" href="help.html">♡ დახმარება ახლა</a>
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
